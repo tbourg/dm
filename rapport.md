@@ -13,9 +13,27 @@ Cela représente plusieurs intérêts pour quelqu'un qui est nouveau à New York
 - Savoir d'où il est probablement facile de trouver un taxi.
 - 
 
-### Transformation
+### Transformations
+Nous avons dans un premier temps nettoyer les données, c'est-à-dire supprimer les enregistrements erronés ainsi que ceux ne nous intéressants pas (coordonnées invalides, nombre de passager égal à zéro, ...).
+Puis nous nous sommes focalisés sur trois transformations autour des coordonnées géographique:
+- Réaliser un clustering des points de départs des courses
+- Réaliser un clustering des points de dépôt
+- Associer une zone de départ à une zone d'arrivée grâce à un biclustering départ/arrivée
 
-### Conclusion
+### Résultats
+#### Clustering points de départ
+<iframe src='results/pickup_poi.txt' width='80%' height='800'>
+</iframe>
+<iframe src='results/pickup_map.html' width='80%' height='800'>
+</iframe>
+
+#### Clustering points d'arrivée
+<iframe src='results/dropoff_poi.txt' width='80%' height='800'>
+</iframe>
+<iframe src='results/dropoff_map.html' width='80%' height='800'>
+</iframe>
+
+#### Biclustering
 
 
 --------------------------------------
