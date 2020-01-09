@@ -11,11 +11,10 @@ Nous pourrions donc identifier les lieux les plus visités.
 Cela représente plusieurs intérêts pour quelqu'un qui est nouveau à New York : 
 - Savoir quels lieux sont probablement intéressants à visiter.
 - Savoir d'où il est probablement facile de trouver un taxi.
-- 
 
 ### Transformations
-Nous avons dans un premier temps nettoyer les données, c'est-à-dire supprimer les enregistrements erronés ainsi que ceux ne nous intéressants pas (coordonnées invalides, nombre de passager égal à zéro, ...).
-Puis nous nous sommes focalisés sur trois transformations autour des coordonnées géographique:
+Nous avons dans un premier temps nettoyé les données, c'est-à-dire supprimer les enregistrements erronés ainsi que ceux ne nous intéressant pas (coordonnées invalides, nombre de passager égal à zéro, ...).
+Puis nous nous sommes focalisés sur trois transformations autour des coordonnées géographiques:
 - Réaliser un clustering des points de départs des courses
 - Réaliser un clustering des points de dépôt
 - Associer une zone de départ à une zone d'arrivée grâce à un biclustering départ/arrivée
