@@ -21,16 +21,26 @@ Puis nous nous sommes focalisés sur trois transformations autour des coordonné
 
 ### Résultats
 #### Clustering points de départ
+
+<figure>
 <iframe src='results/pickup_poi.txt' width='80%' height='800'>
 </iframe>
+</figure>
+
+
 <iframe src='results/pickup_map.html' width='80%' height='800'>
 </iframe>
 
+
 #### Clustering points d'arrivée
+
 <iframe src='results/dropoff_poi.txt' width='80%' height='800'>
 </iframe>
+
+
 <iframe src='results/dropoff_map.html' width='80%' height='800'>
 </iframe>
+
 
 #### Biclustering
 
