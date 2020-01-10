@@ -57,4 +57,9 @@ def dropoff_clustering():
         of.write('\n'.join(poi_txt))
 
 
-dropoff_clustering()
+def biclustering():
+    data = data_clr.filter(items=['dist','fare_amount'])
+    print(data.head(3))
+
+
+biclustering()
