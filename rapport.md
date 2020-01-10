@@ -17,7 +17,7 @@ Nous avons dans un premier temps nettoyé les données, c'est-à-dire supprimer 
 Puis nous nous sommes focalisés sur trois transformations autour des coordonnées géographiques:
 - Réaliser un clustering des points de départs des courses
 - Réaliser un clustering des points de dépôt
-- Associer une zone de départ à une zone d'arrivée grâce à un biclustering départ/arrivée
+- Associer un tarif à une distance
 
 ### Résultats
 #### Clustering points de départ
