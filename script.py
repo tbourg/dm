@@ -60,6 +60,7 @@ def dropoff_clustering():
 def biclustering():
     data = data_clr.filter(items=['dist','fare_amount'])
     print(data.head(3))
+    biclusters = sklearn.cluster.SpectralCoclustering(n_clusters=1).fit([[(1,1),(1,1)],[(1,1),(1,1)]])
 
 
 biclustering()
