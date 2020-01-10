@@ -17,7 +17,7 @@ Nous avons dans un premier temps nettoyé les données, c'est-à-dire supprimer 
 Puis nous nous sommes focalisés sur trois transformations autour des coordonnées géographiques:
 - Réaliser un clustering des points de départs des courses
 - Réaliser un clustering des points de dépôt
-- Associer un tarif à une distance
+- Associer une zone de départ à une zone d'arrivée
 
 ### Résultats
 
@@ -61,6 +61,8 @@ Willow Lake Trail, Queens, New York 11367, United States
 <iframe src='results/pickup_map.html' width='80%' height='800'>
 </iframe>
 
+On retrouve ici l'aéroport (touristes). La plupart des autres points se situe dans Manhattan, qui est une zone avec de nombreux hôtels (touristes) mais aussi très peuplée.
+
 
 #### Clustering points d'arrivée
 
@@ -100,10 +102,12 @@ Rubin Singer Studio, New York, New York 10018, United States
 <iframe src='results/dropoff_map.html' width='80%' height='800'>
 </iframe>
 
+Ici, on retrouve les principaux lieux touristiques.
+
 
 #### Biclustering
 
-**NON REALISE**
+**NON REALISE (nous n'avons pas réussi à gérer la bi-dimensionnalité des données)**
 
 [Version interactive](https://tbourg.github.io/dm/rapport.html)
 
