@@ -105,6 +105,7 @@ Rubin Singer Studio, New York, New York 10018, United States
 
 **NON REALISE**
 
+[Version interactive](https://tbourg.github.io/dm/rapport.md)
 
 --------------------------------------
 T.Bourg & T.Buttez - M2IA - UCBL
